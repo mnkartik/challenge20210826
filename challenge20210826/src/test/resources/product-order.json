@@ -1,0 +1,83 @@
+{
+  "category":"Sample product order",
+  "description":"Product Order sample",
+  "productOrderItem":[
+    {
+      "id":"100",
+      "quantity":1,
+      "type":"bundle",
+      "name":"Line1",
+    },
+    {
+      "id":"110",
+      "quantity":1,
+      "type":"hardware",
+      "name":"iphone11",
+      "parentRel" : "100"
+    },
+    {
+      "id":"120",
+      "quantity":2,
+      "type":"hardware",
+      "name":"earphones",
+      "parentRel" : "100"
+    },
+    {
+      "id":"130",
+      "quantity":1,
+      "type":"hardware",
+      "name":"sim",
+      "parentRel" : "100"
+    },
+    {
+      "id":"410",
+      "quantity":1,
+      "type":"service",
+      "name":"Plan499",
+      "parentRel" : "100"
+    },
+
+
+    {
+      "id":"1100",
+      "quantity":1,
+      "type":"bundle",
+      "name":"Line2"
+    },
+    {
+      "id":"1111",
+      "quantity":1,
+      "type":"hardware",
+      "name":"galaxy",
+      "parentRel" : "1100"
+    },
+    {
+      "id":"1120",
+      "quantity":2,
+      "type":"hardware",
+      "name":"earphones",
+      "parentRel" : "1100"
+    },
+    {
+      "id":"1130",
+      "quantity":1,
+      "type":"hardware",
+      "name":"sim",
+      "parentRel" : "1100"
+    },
+    {
+      "id":"1410",
+      "quantity":1,
+      "type":"service",
+      "name":"Plan599",
+      "parentRel" : "1100"
+    },
+    {
+      "id":"1151",
+      "quantity":1,
+      "type":"vendorservice",
+      "name":"disneyplus",
+      "parentRel" : "1100"
+    }
+  ]
+}
